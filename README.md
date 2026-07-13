@@ -97,28 +97,6 @@ This project demonstrates a production-oriented RAG workflow rather than a singl
 - GitHub Actions workflow
 - Sample documents for demonstration
 
-## Screenshots
-
-Add project screenshots to a `screenshots/` directory and update the paths below.
-
-### Landing page
-
-![Landing page](screenshots/landing-page.png)
-
-### Document management
-
-![Document management](screenshots/documents-page.png)
-
-### Grounded answer with citations
-
-![Grounded answer](screenshots/chat-answer.png)
-
-### Retrieval inspector
-
-![Retrieval inspector](screenshots/retrieval-inspector.png)
-
-> Until screenshots are added, GitHub will show broken image placeholders. Remove this section temporarily or add the four images before publishing.
-
 ## Architecture
 
 ```mermaid
