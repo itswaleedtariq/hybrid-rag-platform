@@ -1,0 +1,118 @@
+[
+  {
+    "id": "qa_001",
+    "question": "How many annual leave days do permanent employees receive?",
+    "expected_keywords": [
+      "20",
+      "annual leave"
+    ],
+    "expected_sources": [
+      "employee_handbook.md"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "qa_002",
+    "question": "How many unused leave days can be carried forward and by when must they be used?",
+    "expected_keywords": [
+      "five",
+      "March 31"
+    ],
+    "expected_sources": [
+      "employee_handbook.md"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "qa_003",
+    "question": "What does AUTH-104 mean and what should I do first?",
+    "expected_keywords": [
+      "expired",
+      "invalid signature",
+      "new token"
+    ],
+    "expected_sources": [
+      "engineering_runbook.txt"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "qa_004",
+    "question": "When are normal production deployments permitted?",
+    "expected_keywords": [
+      "Tuesday",
+      "Thursday",
+      "10:00",
+      "3:00"
+    ],
+    "expected_sources": [
+      "engineering_runbook.txt"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "qa_005",
+    "question": "What is the domestic meal allowance?",
+    "expected_keywords": [
+      "USD 60"
+    ],
+    "expected_sources": [
+      "expense_policy.html"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "qa_006",
+    "question": "When is a receipt mandatory?",
+    "expected_keywords": [
+      "above USD 25"
+    ],
+    "expected_sources": [
+      "expense_policy.html"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "qa_007",
+    "question": "Compare the expense submission deadline and annual leave request deadline.",
+    "expected_keywords": [
+      "30 calendar days",
+      "five working days"
+    ],
+    "expected_sources": [
+      "expense_policy.html",
+      "employee_handbook.md"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "qa_008",
+    "question": "Who founded the company?",
+    "expected_keywords": [],
+    "expected_sources": [],
+    "answerable": false
+  },
+  {
+    "id": "qa_009",
+    "question": "How often are database backups run and how long are they retained?",
+    "expected_keywords": [
+      "six hours",
+      "30 days"
+    ],
+    "expected_sources": [
+      "engineering_runbook.txt"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "qa_010",
+    "question": "When can employees begin remote work?",
+    "expected_keywords": [
+      "three-month probation"
+    ],
+    "expected_sources": [
+      "employee_handbook.md"
+    ],
+    "answerable": true
+  }
+]

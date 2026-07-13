@@ -1,0 +1,11 @@
+Engineering Operations Runbook
+
+Production deployments are permitted Tuesday through Thursday between 10:00 AM and 3:00 PM UTC. Friday deployments require Director of Engineering approval.
+
+SEV-1 means a complete outage or confirmed data breach. For SEV-1, page the on-call engineer immediately, create an incident channel, and post an initial customer update within 15 minutes.
+
+Error AUTH-104 means the access token is expired or has an invalid signature. Request a new token first. If the error continues, verify the JWT signing key and the system clock.
+
+DATABASE_URL contains the application database connection string. It must be stored in the secret manager and must never be committed to source control.
+
+Database backups run every six hours and are retained for 30 days. A restore test must be completed once each quarter.

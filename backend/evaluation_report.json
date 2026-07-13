@@ -1,0 +1,138 @@
+[
+  {
+    "id": "qa_001",
+    "answer": "According to [1], permanent employees receive 20 paid annual leave days per calendar year.",
+    "keyword_accuracy": 1.0,
+    "confidence": {
+      "retrieval": 0.6476585393892739,
+      "citation_coverage": 1.0,
+      "citation_validity": 1.0,
+      "composite": 0.823829269694637
+    },
+    "sources": [
+      "employee_handbook.md"
+    ]
+  },
+  {
+    "id": "qa_002",
+    "answer": "According to [1], no more than five unused annual leave days may be carried into the next calendar year, and carried leave must be used by March 31.",
+    "keyword_accuracy": 1.0,
+    "confidence": {
+      "retrieval": 0.336113651510822,
+      "citation_coverage": 1.0,
+      "citation_validity": 1.0,
+      "composite": 0.668056825755411
+    },
+    "sources": [
+      "employee_handbook.md"
+    ]
+  },
+  {
+    "id": "qa_003",
+    "answer": "According to [1], Error AUTH-104 means the access token is expired or has an invalid signature. If you encounter this error, you should request a new token first.",
+    "keyword_accuracy": 1.0,
+    "confidence": {
+      "retrieval": 0.3259590518670223,
+      "citation_coverage": 0.5,
+      "citation_validity": 1.0,
+      "composite": 0.5379795259335112
+    },
+    "sources": [
+      "engineering_runbook.txt"
+    ]
+  },
+  {
+    "id": "qa_004",
+    "answer": "According to [1], production deployments are permitted Tuesday through Thursday between 10:00 AM and 3:00 PM UTC.",
+    "keyword_accuracy": 1.0,
+    "confidence": {
+      "retrieval": 0.3308900086271149,
+      "citation_coverage": 1.0,
+      "citation_validity": 1.0,
+      "composite": 0.6654450043135575
+    },
+    "sources": [
+      "engineering_runbook.txt"
+    ]
+  },
+  {
+    "id": "qa_005",
+    "answer": "The domestic meal allowance is USD 60 [1].",
+    "keyword_accuracy": 1.0,
+    "confidence": {
+      "retrieval": 0.3332466576849515,
+      "citation_coverage": 1.0,
+      "citation_validity": 1.0,
+      "composite": 0.6666233288424758
+    },
+    "sources": [
+      "expense_policy.html"
+    ]
+  },
+  {
+    "id": "qa_006",
+    "answer": "A receipt is mandatory for any individual expense above USD 25 [1].",
+    "keyword_accuracy": 1.0,
+    "confidence": {
+      "retrieval": 0.3338956011479195,
+      "citation_coverage": 1.0,
+      "citation_validity": 1.0,
+      "composite": 0.6669478005739597
+    },
+    "sources": [
+      "expense_policy.html"
+    ]
+  },
+  {
+    "id": "qa_007",
+    "answer": "I could not find enough relevant information in your uploaded documents to answer this question.",
+    "keyword_accuracy": 0.0,
+    "confidence": {
+      "retrieval": 0.18786599010705174,
+      "citation_coverage": 1,
+      "citation_validity": 1,
+      "composite": 0.5939329950535259
+    },
+    "sources": []
+  },
+  {
+    "id": "qa_008",
+    "answer": "I could not find enough relevant information in your uploaded documents to answer this question.",
+    "keyword_accuracy": 0.0,
+    "confidence": {
+      "retrieval": 1.7432046776535385e-05,
+      "citation_coverage": 1,
+      "citation_validity": 1,
+      "composite": 0.5000087160233883
+    },
+    "sources": []
+  },
+  {
+    "id": "qa_009",
+    "answer": "According to [1], database backups are run every six hours and are retained for 30 days.",
+    "keyword_accuracy": 1.0,
+    "confidence": {
+      "retrieval": 0.3338230057569191,
+      "citation_coverage": 1.0,
+      "citation_validity": 1.0,
+      "composite": 0.6669115028784596
+    },
+    "sources": [
+      "engineering_runbook.txt"
+    ]
+  },
+  {
+    "id": "qa_010",
+    "answer": "According to [1], employees may work remotely up to two days per week after completing the three-month probation period, with written manager approval required.",
+    "keyword_accuracy": 1.0,
+    "confidence": {
+      "retrieval": 0.3269328704473476,
+      "citation_coverage": 1.0,
+      "citation_validity": 1.0,
+      "composite": 0.6634664352236738
+    },
+    "sources": [
+      "employee_handbook.md"
+    ]
+  }
+]
